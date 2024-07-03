@@ -1,0 +1,12 @@
+{
+  "services": [
+    {
+      "type": "web",
+      "name": "your-service-name",
+      "env": "node",
+      "plan": "free",
+      "buildCommand": "npm install --legacy-peer-deps && npm run build",
+      "startCommand": "npm start"
+    }
+  ]
+}
